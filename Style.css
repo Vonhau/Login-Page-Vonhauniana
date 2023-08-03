@@ -37,10 +37,9 @@ body {
     animation: flotar 3s ease-in-out alternate infinite;
 }
 
-.iniciar-sesion {
-    display: flex;
-    align-self: center;
-    font-size: 18px;
+h1 {
+    text-align: center;
+    font-size: 35px;
 }
 
 .content__form-container > label {
@@ -83,12 +82,6 @@ body {
     color: #2d87ee;
 }
 
-.form__inputs-button {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
-}
-
 .form__inputs-check {
     display: flex;
     align-items: center;
@@ -111,7 +104,6 @@ body {
 .form__boton-sesion {
     border: none;
     border-radius: 2px;
-    flex-basis: 100%;
     padding: 20px 10px;
     background-color: #2d87ee;
     color: #fff;
@@ -143,7 +135,7 @@ a:hover {
 .form__contraseña:focus, .form__nombre-usuario:focus {
     border-bottom: 2px solid #1b68c0;
     background-color: #f8f8f8;
-} 
+}
 
 @keyframes degrade {
     0% {background-position: 0% 50%;}
@@ -161,4 +153,10 @@ a:hover {
     0% {opacity: 0;}
     50% {opacity: 50%;}
     100% {opacity: 100%;}
+}
+
+@media screen and (min-width: 410px) {
+     .form__olvidaste-contra > b {
+        text-align: right;
+     }
 }
