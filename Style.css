@@ -28,6 +28,7 @@ body {
     padding: 40px;
     max-width: 450px;
     min-height: 550px;
+    max-height: 800px;
     flex-basis: 100%;
     margin: 20px;
     height: 75%;
